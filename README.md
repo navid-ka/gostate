@@ -16,7 +16,7 @@ go get github.com/navid-ka/gostate@latest
 import "github.com/navid-ka/gostate"
 ```
 
-##Creating a New State
+## Creating a New State
 
 To create a new state instance, use the NewState function:
 
