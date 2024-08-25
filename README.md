@@ -11,8 +11,9 @@ go get github.com/navid-ka/gostate@latest
 ```
 
 ## Usage
+
 ```
-import "github.com/navid/gostate"
+import "github.com/navid-ka/gostate"
 ```
 
 ##Creating a New State
@@ -24,6 +25,7 @@ s := gostate.NewState()
 ```
 
 ## Initializing States
+
 The InitState method allows you to initialize the state with a map of keys (state names) and their corresponding boolean values.
 
 ```
@@ -36,13 +38,14 @@ s.InitState(initialStates)
 ```
 
 ## Switching States
- ```
+
+```
 s.SwitchState("GAME")
 ```
 
 ## Getting the Current State
 
-``` 
+```
 isGameActive := s.Get("GAME")
 if isGameActive {
     // Perform actions related to the GAME state
@@ -52,5 +55,3 @@ if isGameActive {
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-
