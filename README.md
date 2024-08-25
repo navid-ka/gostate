@@ -21,7 +21,7 @@ import "github.com/navid-ka/gostate"
 To create a new state instance, use the NewState function:
 
 ```
-s := gostate.NewState()
+s := state.NewState()
 ```
 
 ## Initializing States
